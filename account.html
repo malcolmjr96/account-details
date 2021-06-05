@@ -1,0 +1,44 @@
+<link href="css/stylesheet.css" rel="stylesheet">
+<div class="account-details-Contain">
+    <form>
+    <!-- Display name/ Public -->
+        <label for="displayName">Display Name:</label>
+        <input type="text" id="displayName" placeholder="Enter a name which others can refer you by.">
+
+    <!-- User Credentials -->
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Malcolm">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="malcolm@codeforum.org" value="malcolm@codeforum.org">
+        <label for="cPassword">Current Password</label>
+        <input type="password" id="cPassword" value="******">
+        <label for="nPassword">New Password</label>
+        <input type="password" id="nPassword" placeholder="Enter new password">
+        <label for="ncPassword">Confirm Password</label>
+        <input type="password" id="ncPassword" placeholder="Confirm new password.">
+    <!-- End of User Credentials -->
+
+    <!-- User Roles-->
+
+        <input type="radio" id="Admiin" value="user" placeholder="user"><label for="adminRole">Admin</label>
+        <input type="radio" id="userRole" value="user" placeholder="user"><label for="userRole">User</label>
+
+    <!-- End of User Roles-->
+
+    <!-- User DOB -->
+        <label for="userDOB">Date of Birth</label>
+        <input type="date" id="userDOB">
+    <!-- End User DOB-->
+
+    <!-- Form Actions -->
+        <input type="button" value="Save" id="account-save" >
+        <input type="reset" value="Reset" id="account-field-reset">
+    <!-- End Form Actions-->
+        <hr>
+    <!-- Account Removal -->
+        <h3>Danger Zone</h3>
+        <label for="userDelete">Delete Account</label>
+        <input type="button" value="Delete Account" id="userDelete">
+    <!-- End Account Removal -->
+    </form>
+</div>
